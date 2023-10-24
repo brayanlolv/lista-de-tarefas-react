@@ -1,0 +1,37 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins:wght@300&display=swap');
+
+
+#container{
+    font-family: 'Lato', sans-serif;
+    display: inline-block;
+    text-align: center;
+    width: 500px;
+    height: 600px;
+    background-color: white;
+
+    /* display: flex ; */
+    /* flex-direction: column;
+    justify-content:flex-start; */
+
+
+}
+button{
+    font-size:50px ;
+    margin-top: 30px;
+    color: white;
+    background-color: rgb(207, 74, 96);
+    border: none;
+    height: 60px;
+    width: 60px;
+}
+/* gambiarra muda isso depois*/
+
+ #footer{
+    position: absolute;
+    bottom: 20px;
+ }
+
+
+

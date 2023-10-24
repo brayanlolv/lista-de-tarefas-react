@@ -1,0 +1,44 @@
+
+
+#fundo{
+
+   position: absolute;
+   
+   top:0px;
+   left: 0px;
+   height: 100vh;
+   width: 100vw;
+
+
+   background-color:rgba(0, 255, 255, 0.2) ;
+   backdrop-filter: blur( 1px );
+-webkit-backdrop-filter: blur( 1px );
+ 
+}
+
+#form-criando{
+   top: 20%;
+   position:absolute;
+   width: 500px;
+    border: 2px solid black;
+    background-color: white;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+ }
+ #form-criando input{width: 80%;}
+
+ #form-criando input[type="text"]{
+    height: 40px;
+ }
+
+ #form-criando input[type="textarea"]{
+    height: 150px;
+ }
+
+ #form-criando input[type="button"]{
+   margin-bottom: 20px;
+ }
