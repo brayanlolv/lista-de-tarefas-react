@@ -1,5 +1,5 @@
 {
-  "homepage": "https://brayanlolv.github.io/lista-de-tarefas",
+  "homepage": "https://brayanlolv.github.io/lista-de-tarefas/",
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
@@ -14,7 +14,6 @@
     "react-scripts": "^3.0.1",
     "save-dev": "^0.0.1-security",
     "web-vitals": "^2.1.4"
-  
   },
   "scripts": {
     "start": "react-scripts --openssl-legacy-provider start",
@@ -22,7 +21,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [

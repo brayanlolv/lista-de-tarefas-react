@@ -10,6 +10,8 @@
     width: 500px;
     height: 600px;
     background-color: white;
+    border:1px solid black;
+    border-radius: 20px;
 
     /* display: flex ; */
     /* flex-direction: column;
@@ -28,9 +30,19 @@ button{
 }
 /* gambiarra muda isso depois*/
 
- #footer{
-    position: absolute;
-    bottom: 20px;
+ #footer input{
+    /* position: absolute;
+    bottom: 20px; */
+    font-size: xx-large;
+    margin-top: 50px;
+    width:50% ;
+    height: 50px;
+    background-color:rgb(207, 74, 96);
+    border: none;
+    color: white;
+
+
+
  }
 
 

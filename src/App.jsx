@@ -9,14 +9,8 @@ function getData(){
   if(data === null){return []}
   return data.tasks
 }
-  // "start": "react-scripts start",
-    // "build": "react-scripts build",
-    //o q eu tirei do package 
 
 function App() {
-
-
-
 
   function clearAll(){
     localStorage.removeItem("tarefas")
@@ -62,8 +56,8 @@ function CreateTasks(){
 
 
 
-      <div id="footer">div
-        <input type="button" value="clear All" onClick={clearAll} /></div>
+      <div id="footer">
+        <input type="button" value="Limpar Tudo" onClick={clearAll} /></div>
     </div>
 
   );
