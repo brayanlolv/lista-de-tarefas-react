@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/lista-de-tarefas-react/static/css/main.2624d9f6.chunk.css",
-    "main.js": "/lista-de-tarefas-react/static/js/main.7cd948e1.chunk.js",
-    "main.js.map": "/lista-de-tarefas-react/static/js/main.7cd948e1.chunk.js.map",
+    "main.js": "/lista-de-tarefas-react/static/js/main.b368952b.chunk.js",
+    "main.js.map": "/lista-de-tarefas-react/static/js/main.b368952b.chunk.js.map",
     "runtime~main.js": "/lista-de-tarefas-react/static/js/runtime~main.000e80ee.js",
     "runtime~main.js.map": "/lista-de-tarefas-react/static/js/runtime~main.000e80ee.js.map",
-    "static/js/2.0843c651.chunk.js": "/lista-de-tarefas-react/static/js/2.0843c651.chunk.js",
-    "static/js/2.0843c651.chunk.js.map": "/lista-de-tarefas-react/static/js/2.0843c651.chunk.js.map",
+    "static/js/2.51704230.chunk.js": "/lista-de-tarefas-react/static/js/2.51704230.chunk.js",
+    "static/js/2.51704230.chunk.js.map": "/lista-de-tarefas-react/static/js/2.51704230.chunk.js.map",
     "index.html": "/lista-de-tarefas-react/index.html",
-    "precache-manifest.98bb31794befdb67544c2607d3682806.js": "/lista-de-tarefas-react/precache-manifest.98bb31794befdb67544c2607d3682806.js",
+    "precache-manifest.552ec49c28dcb4e409d85e4a9acf8381.js": "/lista-de-tarefas-react/precache-manifest.552ec49c28dcb4e409d85e4a9acf8381.js",
     "service-worker.js": "/lista-de-tarefas-react/service-worker.js",
     "static/css/main.2624d9f6.chunk.css.map": "/lista-de-tarefas-react/static/css/main.2624d9f6.chunk.css.map"
   }
