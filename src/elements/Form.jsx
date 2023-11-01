@@ -2,8 +2,9 @@ import React from "react";
 import "../styles/form.css"
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
+import { base } from "../Router";
 
-
+import { Link } from "react-router-dom";
 
 
 function Form(teste) {
@@ -11,7 +12,7 @@ function Form(teste) {
     const navigate = useNavigate();
 
     function goHome(){
-        navigate("/")
+        navigate("/lista-de-tarefas-react")
     }
 
 
@@ -62,7 +63,7 @@ function Form(teste) {
     return (
         <form id="criar-task" >
         
-            <a href="/"><div id="fundo" ></div></a>
+            <Link to="/lista-de-tarefas-react"><a><div id="fundo" ></div></a></Link>
 
             <div id="form-criando">
                 criar tarefa

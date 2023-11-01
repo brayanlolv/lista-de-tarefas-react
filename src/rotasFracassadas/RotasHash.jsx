@@ -1,13 +1,10 @@
+import {createHashRouter,RouterProvider} from 'react-router-dom'
 import React from "react";
-import Form from "./elements/Form";
-import App from "./App";
-import {createBrowserRouter,} from "react-router-dom";
+import Form from "../elements/Form";
+import App from "../App";
+import { base } from '../Router';
 
-const base = "/lista-de-tarefas"//só uso isso pra dar deploy
-
-
-const routes = createBrowserRouter([
-
+const hashRoutes = createHashRouter([
     {
         path: base+"/",
         element: <App />,
@@ -22,5 +19,4 @@ const routes = createBrowserRouter([
 
 ])
 
-export default routes
-export{base}
+export default hashRoutes

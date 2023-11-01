@@ -1,6 +1,8 @@
 import "./styles/app.css"
 import React from "react";
 import Tasks from "./elements/Tasks";
+import { base } from "./Router";
+import { Link } from "react-router-dom";
 
 
 function getData(){
@@ -51,7 +53,7 @@ function CreateTasks(){
 
      
 
-        <a href="/form"><button id="addTaskbtn" >+</button></a>
+        <Link to="/form"><a><button id="addTaskbtn" >+</button></a></Link>
       </div>
 
 
